@@ -3,20 +3,25 @@ body {
     background-color: rgb(150, 150, 150);
 }
 
-.nav {
+.nav li{
     text-decoration: none;
     list-style-type: none;
     display: inline;
     padding: 10px;
     border: solid black 2px;
-    background-color: black;
+    background-color: rgb(70, 70, 70);
     color: white;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
-.nav:hover {
+a:hover {
+    color: rgb(142, 142, 142);
+}
+
+.nav li:hover {
     background-color: darkslategrey;
 }
