@@ -2,3 +2,21 @@ body {
     font-family: monospace;
     background-color: rgb(150, 150, 150);
 }
+
+.nav {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.nav:hover {
+    background-color: darkslategrey;
+}
